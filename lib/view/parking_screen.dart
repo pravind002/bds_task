@@ -157,11 +157,9 @@ class _ParkingScreenState extends State<ParkingScreen> {
                       return const Center(child: Text('No records found.'));
                     } else {
                       final records = snapshot.data;
-                      if(records!.isEmpty){
-                        return customText('No Data Found!!');
-                      }else{
+                      
                       return ListView.builder(
-                        itemCount: records.length,
+                        itemCount: records!.length,
                         itemBuilder: (context, index) {
                           final record = records[index];
                           return record.checkOutTime == null
@@ -201,10 +199,10 @@ class _ParkingScreenState extends State<ParkingScreen> {
                                         : null,
                                   ),
                                 )
-                              : Center(child: customText('No List Available'));
+                              : customText(' ');
                         },
                       );
-                    }
+                    
                    } },
                 ),
               ),
