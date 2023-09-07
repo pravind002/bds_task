@@ -1,0 +1,12 @@
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-0 C:\Users\parvi\.gradle\caches\transforms-3\4aa88baa28bebb2c5026ed42a8d72d9e\transformed\jetified-annotation-experimental-1.1.0\res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-1 C:\Users\parvi\.gradle\caches\transforms-3\aa63b1d9f3d50daa819346953e1a95a0\transformed\jetified-window-1.0.0-beta04\res
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-2 C:\Users\parvi\.gradle\caches\transforms-3\f3e237183d5fb0dc1438664d84aebc84\transformed\jetified-window-java-1.0.0-beta04\res
+com.tekartik.sqflite-core-1.6.0-3 C:\Users\parvi\.gradle\caches\transforms-3\fa4fb2a8372e72f5c5be2d4ab2f5aab0\transformed\core-1.6.0\res
+com.tekartik.sqflite-main-4 C:\Users\parvi\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.3.0\android\src\main\res
+com.tekartik.sqflite-release-5 C:\Users\parvi\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.3.0\android\src\release\res
+com.tekartik.sqflite-pngs-6 D:\task\parking_master\build\sqflite\generated\res\pngs\release
+com.tekartik.sqflite-resValues-7 D:\task\parking_master\build\sqflite\generated\res\resValues\release
+com.tekartik.sqflite-rs-8 D:\task\parking_master\build\sqflite\generated\res\rs\release
+com.tekartik.sqflite-mergeReleaseResources-9 D:\task\parking_master\build\sqflite\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 D:\task\parking_master\build\sqflite\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.tekartik.sqflite-merged_res-11 D:\task\parking_master\build\sqflite\intermediates\merged_res\release

@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.futurex.parking_master"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->[:location] D:\task\parking_master\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+11-->[:location] D:\task\parking_master\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->[:location] D:\task\parking_master\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-79
+12-->[:location] D:\task\parking_master\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.10.1] C:\Users\parvi\.gradle\caches\transforms-3\da6f769dd2fe62bae500e425de7a6811\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+15        android:name="com.futurex.parking_master.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.10.1] C:\Users\parvi\.gradle\caches\transforms-3\da6f769dd2fe62bae500e425de7a6811\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.10.1] C:\Users\parvi\.gradle\caches\transforms-3\da6f769dd2fe62bae500e425de7a6811\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.futurex.parking_master.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.10.1] C:\Users\parvi\.gradle\caches\transforms-3\da6f769dd2fe62bae500e425de7a6811\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.10.1] C:\Users\parvi\.gradle\caches\transforms-3\da6f769dd2fe62bae500e425de7a6811\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+19
+20    <application
+21        android:name="android.app.Application"
+21-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:4:9-42
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.10.1] C:\Users\parvi\.gradle\caches\transforms-3\da6f769dd2fe62bae500e425de7a6811\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:5:9-43
+24        android:label="Parking Master" >
+24-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:3:9-39
+25        <activity
+25-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:6:9-26:20
+26            android:name="com.futurex.parking_master.MainActivity"
+26-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:7:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:11:13-163
+28            android:exported="true"
+28-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:8:13-36
+29            android:hardwareAccelerated="true"
+29-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:12:13-47
+30            android:launchMode="singleTop"
+30-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:9:13-43
+31            android:theme="@style/LaunchTheme"
+31-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:10:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:13:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:18:13-21:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:19:15-70
+42                android:resource="@style/NormalTheme" />
+42-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:20:15-52
+43
+44            <intent-filter>
+44-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:22:13-25:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:23:17-68
+45-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:23:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:24:17-76
+47-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:24:27-74
+48            </intent-filter>
+49        </activity>
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:29:9-31:33
+55            android:name="flutterEmbedding"
+55-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:30:13-44
+56            android:value="2" />
+56-->D:\task\parking_master\android\app\src\main\AndroidManifest.xml:31:13-30
+57
+58        <activity
+58-->[:url_launcher_android] D:\task\parking_master\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+59            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+59-->[:url_launcher_android] D:\task\parking_master\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+60            android:exported="false"
+60-->[:url_launcher_android] D:\task\parking_master\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+61            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+61-->[:url_launcher_android] D:\task\parking_master\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+62
+63        <service
+63-->[:location] D:\task\parking_master\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-17:56
+64            android:name="com.lyokone.location.FlutterLocationService"
+64-->[:location] D:\task\parking_master\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-71
+65            android:enabled="true"
+65-->[:location] D:\task\parking_master\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-35
+66            android:exported="false"
+66-->[:location] D:\task\parking_master\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+67            android:foregroundServiceType="location" />
+67-->[:location] D:\task\parking_master\build\location\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-53
+68
+69        <uses-library
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\parvi\.gradle\caches\transforms-3\aa63b1d9f3d50daa819346953e1a95a0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+70            android:name="androidx.window.extensions"
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\parvi\.gradle\caches\transforms-3\aa63b1d9f3d50daa819346953e1a95a0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+71            android:required="false" />
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\parvi\.gradle\caches\transforms-3\aa63b1d9f3d50daa819346953e1a95a0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\parvi\.gradle\caches\transforms-3\aa63b1d9f3d50daa819346953e1a95a0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+73            android:name="androidx.window.sidecar"
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\parvi\.gradle\caches\transforms-3\aa63b1d9f3d50daa819346953e1a95a0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\parvi\.gradle\caches\transforms-3\aa63b1d9f3d50daa819346953e1a95a0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\parvi\.gradle\caches\transforms-3\f3f78e0ac3c0e825cf11e86241325083\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\parvi\.gradle\caches\transforms-3\f3f78e0ac3c0e825cf11e86241325083\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\parvi\.gradle\caches\transforms-3\f3f78e0ac3c0e825cf11e86241325083\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\parvi\.gradle\caches\transforms-3\f3f78e0ac3c0e825cf11e86241325083\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\parvi\.gradle\caches\transforms-3\73f3e89a5b72add012c18dd9bcc4a502\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\parvi\.gradle\caches\transforms-3\73f3e89a5b72add012c18dd9bcc4a502\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\parvi\.gradle\caches\transforms-3\73f3e89a5b72add012c18dd9bcc4a502\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+84    </application>
+85
+86</manifest>
